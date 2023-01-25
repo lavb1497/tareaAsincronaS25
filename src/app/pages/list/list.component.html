@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="mb-4">
+        <h2>Listado de Usuarios</h2>
+      </div>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let users of user">
+            <td>{{ users.nameUser }}</td>
+            <td>{{ users.email }}</td>
+            <td>{{ users.role }}</td>
+            <td class="text-center">
+              <button class="btn btn-danger" (click)="onClickDeleted(users)">Eliminar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

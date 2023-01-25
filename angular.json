@@ -91,8 +91,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "actividad-25:build:production",
+            "firebaseProject": "angularclase25",
+            "firebaseHostingSite": "angularclase25"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

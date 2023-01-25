@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "angular-clase-d7a8d": {
+      "hosting": {
+        "actividad-25": [
+          "user12321321"
+        ]
+      }
+    },
+    "angularclase25": {
+      "hosting": {
+        "actividad-25": [
+          "angularclase25"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angularclase25"
+  }
+}
